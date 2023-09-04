@@ -1,4 +1,5 @@
 import "./Dashboard.css";
+import myImage from "./images.png";
 import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { AiFillProject } from "react-icons/ai";
@@ -79,18 +80,25 @@ const Dashboard = () => {
 
       <div className="main-content">
         <header>
-          <div className="header-title">
-            <h1>
-              <label for="">
-                <span className="las la-bars">
-                  <MdDashboard />
-                </span>
-              </label>
-              Dashboard
-            </h1>
-            <div className="search-wrapper">
-              <span className="ls la-search"></span>
-              <input type="search " placeholder="Search here " />
+          <h1>
+            <label for="">
+              <span className="las la-bars">
+                <MdDashboard />
+              </span>
+            </label>
+            Dashboard
+          </h1>
+
+          <div className="search-wrapper">
+            <span className="ls la-search"></span>
+            <input type="search " placeholder="Search here " />
+          </div>
+
+          <div className="user-wrapper">
+            <img src={myImage} width="30px" height="30px" alt="" />
+            <div>
+              <h4>Mobina_Abf</h4>
+              <small>Super admin</small>
             </div>
           </div>
         </header>
