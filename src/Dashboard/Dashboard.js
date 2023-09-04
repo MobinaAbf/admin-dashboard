@@ -95,13 +95,25 @@ const Dashboard = () => {
           </div>
 
           <div className="user-wrapper">
-            <img src={myImage} width="30px" height="30px" alt="" />
+            <img src={myImage} width="40px" height="40px" alt="" />
             <div>
               <h4>Mobina_Abf</h4>
               <small>Super admin</small>
             </div>
           </div>
         </header>
+
+        <main>
+          <div className="cards">
+            <div className="card-single">
+              <div>
+                <h1>54</h1>
+                <span>Customers</span>
+              </div>
+              
+            </div>
+          </div>
+        </main>
       </div>
     </div>
   );
