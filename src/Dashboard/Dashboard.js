@@ -20,7 +20,7 @@ const Dashboard = () => {
         <div className="sidebar-menu">
           <ul>
             <li>
-              <a href="#">
+              <a href="#" className="active">
                 <span className="material-icons-sharp">
                   <MdDashboard />
                 </span>

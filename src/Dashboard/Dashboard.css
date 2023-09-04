@@ -37,7 +37,23 @@
 
 .sidebar-menu li {
   width: 100%;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.7rem;
+  padding-left: 2rem; 
+}
+
+.sidebar-menu a{
+    display: block;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.sidebar-menu a.active{
+    background: #fff;
+}
+
+.sidebar-menu a span:first-child{
+    font-size: 1.5rem;
+    padding-right: 1rem;
 }
 
 .main-content {
