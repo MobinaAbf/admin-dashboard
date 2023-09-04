@@ -11,10 +11,10 @@ const Dashboard = () => {
     <div className="container">
       <div className="sidebar">
         <div className="sidebar-brand">
-          <h1>
+          <h2>
             <span className="lab la-accusoft"> </span>
             Data2Learn
-          </h1>
+          </h2>
         </div>
 
         <div className="sidebar-menu">
@@ -81,14 +81,14 @@ const Dashboard = () => {
 
       <div className="main-content">
         <header>
-          <h1>
+          <h2>
             <label for="">
               <span className="las la-bars">
                 <MdDashboard />
               </span>
             </label>
             Dashboard
-          </h1>
+          </h2>
 
           <div className="search-wrapper">
             <span className="ls la-search"></span>
@@ -149,7 +149,7 @@ const Dashboard = () => {
               </div>
               <div>
                 <span className="las la-google-wallet">
-                  <BiSolidWallet />
+                  <FaWallet />
                 </span>
               </div>
             </div>
