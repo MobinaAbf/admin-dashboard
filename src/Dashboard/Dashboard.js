@@ -1,7 +1,11 @@
+import './Dashboard.css';
+
 const Dashboard = () => {
-    <div className="body">
-        <h2>hi</h2>
+  return (
+    <div className="container">
+      <h2>hi</h2>
     </div>
+  );
 };
 
 export default Dashboard;
