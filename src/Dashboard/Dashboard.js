@@ -3,7 +3,8 @@ import myImage from "./images.png";
 import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { AiFillProject } from "react-icons/ai";
-import { FaShoppingBasket, FaTasks } from "react-icons/fa";
+import { FaShoppingBasket, FaTasks, FaWallet } from "react-icons/fa";
+import { BiSolidWallet } from "react-icons/bi";
 
 const Dashboard = () => {
   return (
@@ -110,7 +111,47 @@ const Dashboard = () => {
                 <h1>54</h1>
                 <span>Customers</span>
               </div>
-              
+              <div>
+                <span className="las la-users">
+                  <BsFillPeopleFill />
+                </span>
+              </div>
+            </div>
+
+            <div className="card-single">
+              <div>
+                <h1>79</h1>
+                <span>Projects</span>
+              </div>
+              <div>
+                <span className="las la-clipboard">
+                  <AiFillProject />
+                </span>
+              </div>
+            </div>
+
+            <div className="card-single">
+              <div>
+                <h1>124</h1>
+                <span>Orders</span>
+              </div>
+              <div>
+                <span className="las la-shopping-bag">
+                  <FaShoppingBasket />
+                </span>
+              </div>
+            </div>
+
+            <div className="card-single">
+              <div>
+                <h1>$6k</h1>
+                <span>Income</span>
+              </div>
+              <div>
+                <span className="las la-google-wallet">
+                  <BiSolidWallet />
+                </span>
+              </div>
             </div>
           </div>
         </main>

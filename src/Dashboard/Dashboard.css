@@ -5,3 +5,12 @@
     --color-dark: #1D2231;
     --text-grey: #8390A2;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
