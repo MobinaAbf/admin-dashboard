@@ -2,7 +2,7 @@ import "./Dashboard.css";
 import myImage from "./images.png";
 import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
-import { AiFillProject ,AiOutlineMenu} from "react-icons/ai";
+import { AiFillProject, AiOutlineMenu } from "react-icons/ai";
 import { FaShoppingBasket, FaTasks, FaWallet } from "react-icons/fa";
 import { BiSolidWallet } from "react-icons/bi";
 
