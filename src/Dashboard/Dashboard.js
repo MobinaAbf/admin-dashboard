@@ -1,5 +1,5 @@
 import "./Dashboard.css";
-import { MdDashboard ,MdInventory ,MdAccountCircle} from "react-icons/md";
+import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { AiFillProject } from "react-icons/ai";
 import { FaShoppingBasket, FaTasks } from "react-icons/fa";
@@ -75,6 +75,25 @@ const Dashboard = () => {
             </li>
           </ul>
         </div>
+      </div>
+
+      <div className="main-content">
+        <header>
+          <div className="header-title">
+            <h1>
+              <label for="">
+                <span className="las la-bars">
+                  <MdDashboard />
+                </span>
+              </label>
+              Dashboard
+            </h1>
+            <div className="search-wrapper">
+              <span className="ls la-search"></span>
+              <input type="search " placeholder="Search here " />
+            </div>
+          </div>
+        </header>
       </div>
     </div>
   );
