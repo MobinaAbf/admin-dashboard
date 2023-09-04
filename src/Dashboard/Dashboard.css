@@ -24,12 +24,22 @@
   background: var(--main-color);
 }
 
-.sidebar-brand{
-    height: 90px;
-    padding: 1rem 0rem 1rem 2rem;
-    color: #fff;
+.sidebar-brand {
+  height: 90px;
+  padding: 1rem 0rem 1rem 2rem;
+  color: #fff;
 }
 
-.main-content{
-    margin-left: 345px;
+.sidebar-brand span {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.sidebar-menu li {
+  width: 100%;
+  margin-bottom: 1.3rem;
+}
+
+.main-content {
+  margin-left: 345px;
 }
