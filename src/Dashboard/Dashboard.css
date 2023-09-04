@@ -53,6 +53,7 @@
   padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--main-color);
+  border-radius: 40px 0px 0px 40px; /* topLeft topRight bottomRight bottomLeft */
 }
 
 .sidebar-menu a span:first-child {
@@ -62,4 +63,9 @@
 
 .main-content {
   margin-left: 345px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
 }
