@@ -50,7 +50,7 @@
 
 .sidebar-menu a.active {
   background: #fff;
-  padding-top: 1rem;
+  padding-top: .5rem;
   padding-bottom: 1rem;
   color: var(--main-color);
   border-radius: 40px 0px 0px 40px; /* topLeft topRight bottomRight bottomLeft */
@@ -65,7 +65,29 @@
   margin-left: 345px;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
+
+.search-wrapper {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.search-wrapper input {
+  height: 100%;
+  padding: .5rem;
+  border: none;
+  outline: none;
+}
+
+.search-wrapper span{
+    padding-left: 1.5rem;
+}
+

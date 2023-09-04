@@ -4,7 +4,7 @@ import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { AiFillProject, AiOutlineMenu } from "react-icons/ai";
 import { FaShoppingBasket, FaTasks, FaWallet } from "react-icons/fa";
-import { BiSolidWallet } from "react-icons/bi";
+import { BiSearchAlt2 } from "react-icons/bi";
 
 const Dashboard = () => {
   return (
@@ -92,6 +92,7 @@ const Dashboard = () => {
 
           <div className="search-wrapper">
             <span className="ls la-search"></span>
+            <BiSearchAlt2 />
             <input type="search " placeholder="Search here " />
           </div>
 
