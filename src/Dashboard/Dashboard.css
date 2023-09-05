@@ -139,12 +139,20 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 2rem;
+  margin-bottom: 1rem;
 }
 
 .card-single{
   display: flex;
   justify-content: space-between;
   background:#fff;
+  padding: 2rem;
+  border-radius: 2px;
+}
+
+.card-single  h1 + span {
+color: var(--text-grey);
+
 }
 
 .search-wrapper span {
