@@ -169,6 +169,10 @@ main {
   color: #fff;
 }
 
+table{
+  border-collapse: collapse;
+}
+
 .search-wrapper span {
   padding-left: 1.5rem;
 }

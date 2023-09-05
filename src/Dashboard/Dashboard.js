@@ -5,6 +5,7 @@ import { BsFillPeopleFill } from "react-icons/bs";
 import { AiFillProject, AiOutlineMenu } from "react-icons/ai";
 import { FaShoppingBasket, FaTasks, FaWallet } from "react-icons/fa";
 import { BiSearchAlt2 } from "react-icons/bi";
+import {HiOutlineArrowSmRight} from 'react-icons/hi'
 
 const Dashboard = () => {
   return (
@@ -154,6 +155,61 @@ const Dashboard = () => {
                 </span>
               </div>
             </div>
+          </div>
+
+          <div className="recent-grid">
+            <div className="projects">
+              <div className="card">
+                <div className="card-header">
+                  <h3>Recent Projects</h3>
+                  <button>
+                    See all  
+                    <span className="las la-arrow-right"><HiOutlineArrowSmRight/></span>
+                  </button>
+                </div>
+
+                <div className="card-body">
+                  <table width="100٪">
+                    <thead>
+                      <tr>
+                        <td>Project Title</td>
+                        <td>Department</td>
+                        <td>Status</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>UI/UX Design</td>
+                        <td>UI Team</td>
+                        <td>
+                          <span className="status"></span>
+                          review
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Web development</td>
+                        <td>Frontend</td>
+                        <td>
+                          <span className="status"></span>
+                          in progress
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Ushop app</td>
+                        <td>Mobile Team</td>
+                        <td>
+                          <span className="status"></span>
+                          pending
+                        </td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <div className="customers"></div>
           </div>
         </main>
       </div>
