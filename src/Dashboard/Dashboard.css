@@ -142,17 +142,21 @@ main {
   margin-bottom: 1rem;
 }
 
-.card-single{
+.card-single {
   display: flex;
   justify-content: space-between;
-  background:#fff;
+  background: #fff;
   padding: 2rem;
   border-radius: 2px;
 }
 
-.card-single  h1 + span {
-color: var(--text-grey);
+.card-single div:last-child span {
+  font-size: 3rem;
+  color: var(--main-color);
+}
 
+.card-single div:first-child  span{
+  color: var(--text-grey);
 }
 
 .search-wrapper span {
