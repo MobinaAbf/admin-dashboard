@@ -5,7 +5,7 @@ import { BsFillPeopleFill } from "react-icons/bs";
 import { AiFillProject, AiOutlineMenu } from "react-icons/ai";
 import { FaShoppingBasket, FaTasks, FaWallet } from "react-icons/fa";
 import { BiSearchAlt2 } from "react-icons/bi";
-import {HiOutlineArrowSmRight} from 'react-icons/hi'
+import { HiOutlineArrowSmRight } from "react-icons/hi";
 
 const Dashboard = () => {
   return (
@@ -163,13 +163,15 @@ const Dashboard = () => {
                 <div className="card-header">
                   <h3>Recent Projects</h3>
                   <button>
-                    See all  
-                    <span className="las la-arrow-right"><HiOutlineArrowSmRight/></span>
+                    See all
+                    <span className="las la-arrow-right">
+                      <HiOutlineArrowSmRight />
+                    </span>
                   </button>
                 </div>
 
                 <div className="card-body">
-                  <table width="100٪">
+                  <table width="100%">
                     <thead>
                       <tr>
                         <td>Project Title</td>
@@ -202,14 +204,34 @@ const Dashboard = () => {
                           pending
                         </td>
                       </tr>
-
                     </tbody>
                   </table>
                 </div>
               </div>
             </div>
 
-            <div className="customers"></div>
+            <div className="customers">
+              <div className="card">
+                <div className="card-header">
+                  <h3>New customers</h3>
+                  <button>
+                    See all
+                    <span className="las la-arrow-right">
+                      <HiOutlineArrowSmRight />
+                    </span>
+                  </button>
+                </div>
+
+                <div className="card-body">
+                  <div className="customer">
+                    <img src={myImage} width="40px" height="40px" alt=""/>
+                    <div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </main>
       </div>
