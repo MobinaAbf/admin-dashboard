@@ -224,9 +224,77 @@ const Dashboard = () => {
 
                 <div className="card-body">
                   <div className="customer">
-                    <img src={myImage} width="40px" height="40px" alt=""/>
                     <div>
-                      
+                      <img src={myImage} width="40px" height="40px" alt="" />
+                      <div>
+                        <h4>Lewis S.Cunnigham</h4>
+                        <small>CEO Excerpt</small>
+                      </div>
+                    </div>
+                    <div>
+                      <span className="las la-user-circle"></span>
+                      <span className="las la-comment"></span>
+                      <span className="las la-phone"></span>
+                    </div>
+                  </div>
+
+                  <div className="customer">
+                    <div>
+                      <img src={myImage} width="40px" height="40px" alt="" />
+                      <div>
+                        <h4>Lewis S.Cunnigham</h4>
+                        <small>CEO Excerpt</small>
+                      </div>
+                    </div>
+                    <div>
+                      <span className="las la-user-circle"></span>
+                      <span className="las la-comment"></span>
+                      <span className="las la-phone"></span>
+                    </div>
+                  </div>
+
+                  <div className="customer">
+                    <div>
+                      <img src={myImage} width="40px" height="40px" alt="" />
+                      <div>
+                        <h4>Lewis S.Cunnigham</h4>
+                        <small>CEO Excerpt</small>
+                      </div>
+                    </div>
+                    <div>
+                      <span className="las la-user-circle"></span>
+                      <span className="las la-comment"></span>
+                      <span className="las la-phone"></span>
+                    </div>
+                  </div>
+
+                  <div className="customer">
+                    <div>
+                      <img src={myImage} width="40px" height="40px" alt="" />
+                      <div>
+                        <h4>Lewis S.Cunnigham</h4>
+                        <small>CEO Excerpt</small>
+                      </div>
+                    </div>
+                    <div>
+                      <span className="las la-user-circle"></span>
+                      <span className="las la-comment"></span>
+                      <span className="las la-phone"></span>
+                    </div>
+                  </div>
+
+                  <div className="customer">
+                    <div>
+                      <img src={myImage} width="40px" height="40px" alt="" />
+                      <div>
+                        <h4>Lewis S.Cunnigham</h4>
+                        <small>CEO Excerpt</small>
+                      </div>
+                    </div>
+                    <div>
+                      <span className="las la-user-circle"></span>
+                      <span className="las la-comment"></span>
+                      <span className="las la-phone"></span>
                     </div>
                   </div>
                 </div>
