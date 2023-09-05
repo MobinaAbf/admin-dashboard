@@ -2,9 +2,9 @@ import "./Dashboard.css";
 import myImage from "./images.png";
 import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
-import { AiFillProject, AiOutlineMenu } from "react-icons/ai";
-import { FaShoppingBasket, FaTasks, FaWallet } from "react-icons/fa";
-import { BiSearchAlt2 } from "react-icons/bi";
+import { AiFillProject, AiOutlineMenu ,AiFillPhone} from "react-icons/ai";
+import { FaShoppingBasket, FaTasks, FaWallet ,FaRegComment} from "react-icons/fa";
+import { BiSearchAlt2,BiUserCircle } from "react-icons/bi";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 
 const Dashboard = () => {
@@ -233,8 +233,11 @@ const Dashboard = () => {
                     </div>
                     <div>
                       <span className="las la-user-circle"></span>
+                      <BiUserCircle/>
                       <span className="las la-comment"></span>
+                      <FaRegComment/>
                       <span className="las la-phone"></span>
+                      <AiFillPhone/>
                     </div>
                   </div>
 
@@ -247,9 +250,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
+                    <span className="las la-user-circle"></span>
+                      <BiUserCircle/>
                       <span className="las la-comment"></span>
+                      <FaRegComment/>
                       <span className="las la-phone"></span>
+                      <AiFillPhone/>
                     </div>
                   </div>
 
@@ -262,9 +268,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
+                    <span className="las la-user-circle"></span>
+                      <BiUserCircle/>
                       <span className="las la-comment"></span>
+                      <FaRegComment/>
                       <span className="las la-phone"></span>
+                      <AiFillPhone/>
                     </div>
                   </div>
 
@@ -277,9 +286,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
+                    <span className="las la-user-circle"></span>
+                      <BiUserCircle/>
                       <span className="las la-comment"></span>
+                      <FaRegComment/>
                       <span className="las la-phone"></span>
+                      <AiFillPhone/>
                     </div>
                   </div>
 
@@ -292,9 +304,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
+                    <span className="las la-user-circle"></span>
+                      <BiUserCircle/>
                       <span className="las la-comment"></span>
+                      <FaRegComment/>
                       <span className="las la-phone"></span>
+                      <AiFillPhone/>
                     </div>
                   </div>
                 </div>
