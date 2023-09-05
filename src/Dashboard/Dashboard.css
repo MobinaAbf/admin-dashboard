@@ -172,14 +172,23 @@ main {
 .recent-grid {
   margin-top: 3.5rem;
   display: grid;
-  grid-template-columns: 70% auto;
+  grid-gap: 2rem;
+  grid-template-columns: 67% auto;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+}
+
+.card-header,
+.card-body {
+  padding: 1rem;
 }
 
 table {
   border-collapse: collapse;
 }
-
-
 
 .search-wrapper span {
   padding-left: 1.5rem;
