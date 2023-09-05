@@ -141,7 +141,11 @@ main {
   grid-gap: 2rem;
 }
 
-
+.card-single{
+  display: flex;
+  justify-content: space-between;
+  background:#fff;
+}
 
 .search-wrapper span {
   padding-left: 1.5rem;
