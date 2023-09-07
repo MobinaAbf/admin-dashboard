@@ -70,6 +70,11 @@
   width: 70px;
 }
 
+#nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
+#nav-toggle:checked + .sidebar li a h2 span:last-child {
+  display: none;
+}
+
 .main-content {
   margin-left: 345px;
 }
