@@ -226,11 +226,17 @@ td .status {
   border-radius: 50%;
 }
 
-.status {
+.status.purple {
   color: rebeccapurple;
 }
 
+.status.pink {
+  color: deeppink;
+}
 
+.status.orange {
+  color: orangered;
+}
 
 .search-wrapper span {
   padding-left: 1.5rem;
