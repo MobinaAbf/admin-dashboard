@@ -250,6 +250,17 @@ tr td:last-child{
   overflow-x: auto;
 }
 
-.search-wrapper span {
-  padding-left: 1.5rem;
+.customer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.info{
+  display: flex;
+  align-items: center;
+}
+
+/* .search-wrapper span {
+  padding-left: 1.5rem;
+} */
