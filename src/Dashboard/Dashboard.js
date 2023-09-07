@@ -12,7 +12,6 @@ import {
 } from "react-icons/fa";
 import { BiSearchAlt2, BiUserCircle } from "react-icons/bi";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
-
 const Dashboard = () => {
   return (
     <div className="container">
