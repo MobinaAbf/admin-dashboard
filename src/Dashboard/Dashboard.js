@@ -15,6 +15,7 @@ import { HiOutlineArrowSmRight } from "react-icons/hi";
 const Dashboard = () => {
   return (
     <div className="container">
+      <input type="checkbox" id="nav-toggle"/>
       <div className="sidebar">
         <div className="sidebar-brand">
           <h2>
@@ -88,7 +89,7 @@ const Dashboard = () => {
       <div className="main-content">
         <header>
           <h2>
-            <label for="">
+            <label for="nav-toggle">
               <span className="las la-bars">
                 <AiOutlineMenu />
               </span>
@@ -305,14 +306,14 @@ const Dashboard = () => {
                   </div>
 
                   <div className="customer">
-                    <div>
+                    <div className="info">
                       <img src={myImage} width="40px" height="40px" alt="" />
                       <div>
                         <h4>Lewis S.Cunnigham</h4>
                         <small>CEO Excerpt</small>
                       </div>
                     </div>
-                    <div>
+                    <div className="contact">
                       <span className="las la-user-circle">
                         {" "}
                         <BiUserCircle />
@@ -329,14 +330,14 @@ const Dashboard = () => {
                   </div>
 
                   <div className="customer">
-                    <div>
+                    <div className="info">
                       <img src={myImage} width="40px" height="40px" alt="" />
                       <div>
                         <h4>Lewis S.Cunnigham</h4>
                         <small>CEO Excerpt</small>
                       </div>
                     </div>
-                    <div>
+                    <div className="contact">
                       <span className="las la-user-circle">
                         {" "}
                         <BiUserCircle />
@@ -353,14 +354,14 @@ const Dashboard = () => {
                   </div>
 
                   <div className="customer">
-                    <div>
+                    <div className="info">
                       <img src={myImage} width="40px" height="40px" alt="" />
                       <div>
                         <h4>Lewis S.Cunnigham</h4>
                         <small>CEO Excerpt</small>
                       </div>
                     </div>
-                    <div>
+                    <div className="contact">
                       <span className="las la-user-circle">
                         {" "}
                         <BiUserCircle />
@@ -377,14 +378,14 @@ const Dashboard = () => {
                   </div>
 
                   <div className="customer">
-                    <div>
+                    <div className="info">
                       <img src={myImage} width="40px" height="40px" alt="" />
                       <div>
                         <h4>Lewis S.Cunnigham</h4>
                         <small>CEO Excerpt</small>
                       </div>
                     </div>
-                    <div>
+                    <div className="contact">
                       <span className="las la-user-circle">
                         {" "}
                         <BiUserCircle />
