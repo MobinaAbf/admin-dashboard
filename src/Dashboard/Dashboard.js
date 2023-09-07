@@ -204,6 +204,56 @@ const Dashboard = () => {
                           pending
                         </td>
                       </tr>
+
+                      <tr>
+                        <td>UI/UX Design</td>
+                        <td>UI Team</td>
+                        <td>
+                          <span className="status"></span>
+                          review
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Web development</td>
+                        <td>Frontend</td>
+                        <td>
+                          <span className="status"></span>
+                          in progress
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Ushop app</td>
+                        <td>Mobile Team</td>
+                        <td>
+                          <span className="status"></span>
+                          pending
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <td>UI/UX Design</td>
+                        <td>UI Team</td>
+                        <td>
+                          <span className="status"></span>
+                          review
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Web development</td>
+                        <td>Frontend</td>
+                        <td>
+                          <span className="status"></span>
+                          in progress
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Ushop app</td>
+                        <td>Mobile Team</td>
+                        <td>
+                          <span className="status"></span>
+                          pending
+                        </td>
+                      </tr>
                     </tbody>
                   </table>
                 </div>
