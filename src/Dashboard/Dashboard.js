@@ -1,5 +1,6 @@
 import "./Dashboard.css";
 import myImage from "./images.png";
+// import myImage1 from "./maze-logo_1_-removebg-preview.png"
 import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
 import { AiFillProject, AiOutlineMenu, AiFillPhone } from "react-icons/ai";
@@ -19,8 +20,8 @@ const Dashboard = () => {
       <div className="sidebar">
         <div className="sidebar-brand">
           <h2>
-            <span className="lab la-accusoft"> </span>
-            Data2Learn
+            <span className="lab la-accusoft"> <img src="myImage"/></span>
+            <span>Data2Learn</span>
           </h2>
         </div>
 
