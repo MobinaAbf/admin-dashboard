@@ -184,7 +184,7 @@ const Dashboard = () => {
                         <td>UI/UX Design</td>
                         <td>UI Team</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status purple"></span>
                           review
                         </td>
                       </tr>
@@ -192,7 +192,7 @@ const Dashboard = () => {
                         <td>Web development</td>
                         <td>Frontend</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status pink"></span>
                           in progress
                         </td>
                       </tr>
@@ -200,7 +200,7 @@ const Dashboard = () => {
                         <td>Ushop app</td>
                         <td>Mobile Team</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status orange"></span>
                           pending
                         </td>
                       </tr>
@@ -209,7 +209,7 @@ const Dashboard = () => {
                         <td>UI/UX Design</td>
                         <td>UI Team</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status purple"></span>
                           review
                         </td>
                       </tr>
@@ -217,7 +217,7 @@ const Dashboard = () => {
                         <td>Web development</td>
                         <td>Frontend</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status pink"></span>
                           in progress
                         </td>
                       </tr>
@@ -225,7 +225,7 @@ const Dashboard = () => {
                         <td>Ushop app</td>
                         <td>Mobile Team</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status orange"></span>
                           pending
                         </td>
                       </tr>
@@ -234,7 +234,7 @@ const Dashboard = () => {
                         <td>UI/UX Design</td>
                         <td>UI Team</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status purple"></span>
                           review
                         </td>
                       </tr>
@@ -242,7 +242,7 @@ const Dashboard = () => {
                         <td>Web development</td>
                         <td>Frontend</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status pink"></span>
                           in progress
                         </td>
                       </tr>
@@ -250,7 +250,7 @@ const Dashboard = () => {
                         <td>Ushop app</td>
                         <td>Mobile Team</td>
                         <td>
-                          <span className="status"></span>
+                          <span className="status orange"></span>
                           pending
                         </td>
                       </tr>
