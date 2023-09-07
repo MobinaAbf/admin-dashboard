@@ -67,7 +67,7 @@
 }
 
 #nav-toggle:checked + .sidebar {
-  width: 100px;
+  width: 70px;
 }
 
 .main-content {
