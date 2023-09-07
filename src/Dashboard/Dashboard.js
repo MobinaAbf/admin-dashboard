@@ -281,14 +281,14 @@ const Dashboard = () => {
 
                 <div className="card-body">
                   <div className="customer">
-                    <div>
+                    <div className="info">
                       <img src={myImage} width="40px" height="40px" alt="" />
                       <div>
                         <h4>Lewis S.Cunnigham</h4>
                         <small>CEO Excerpt</small>
                       </div>
                     </div>
-                    <div>
+                    <div className="contact">
                       <span className="las la-user-circle"></span>
                       <BiUserCircle />
                       <span className="las la-comment"></span>
