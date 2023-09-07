@@ -2,9 +2,14 @@ import "./Dashboard.css";
 import myImage from "./images.png";
 import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
 import { BsFillPeopleFill } from "react-icons/bs";
-import { AiFillProject, AiOutlineMenu ,AiFillPhone} from "react-icons/ai";
-import { FaShoppingBasket, FaTasks, FaWallet ,FaRegComment} from "react-icons/fa";
-import { BiSearchAlt2,BiUserCircle } from "react-icons/bi";
+import { AiFillProject, AiOutlineMenu, AiFillPhone } from "react-icons/ai";
+import {
+  FaShoppingBasket,
+  FaTasks,
+  FaWallet,
+  FaRegComment,
+} from "react-icons/fa";
+import { BiSearchAlt2, BiUserCircle } from "react-icons/bi";
 import { HiOutlineArrowSmRight } from "react-icons/hi";
 
 const Dashboard = () => {
@@ -171,91 +176,93 @@ const Dashboard = () => {
                 </div>
 
                 <div className="card-body">
-                  <table width="100%">
-                    <thead>
-                      <tr>
-                        <td>Project Title</td>
-                        <td>Department</td>
-                        <td>Status</td>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>UI/UX Design</td>
-                        <td>UI Team</td>
-                        <td>
-                          <span className="status purple"></span>
-                          review
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Web development</td>
-                        <td>Frontend</td>
-                        <td>
-                          <span className="status pink"></span>
-                          in progress
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Ushop app</td>
-                        <td>Mobile Team</td>
-                        <td>
-                          <span className="status orange"></span>
-                          pending
-                        </td>
-                      </tr>
+                  <div className="table-responsive">
+                    <table width="100%">
+                      <thead>
+                        <tr>
+                          <td>Project Title</td>
+                          <td>Department</td>
+                          <td>Status</td>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>UI/UX Design</td>
+                          <td>UI Team</td>
+                          <td>
+                            <span className="status purple"></span>
+                            review
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Web development</td>
+                          <td>Frontend</td>
+                          <td>
+                            <span className="status pink"></span>
+                            in progress
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Ushop app</td>
+                          <td>Mobile Team</td>
+                          <td>
+                            <span className="status orange"></span>
+                            pending
+                          </td>
+                        </tr>
 
-                      <tr>
-                        <td>UI/UX Design</td>
-                        <td>UI Team</td>
-                        <td>
-                          <span className="status purple"></span>
-                          review
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Web development</td>
-                        <td>Frontend</td>
-                        <td>
-                          <span className="status pink"></span>
-                          in progress
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Ushop app</td>
-                        <td>Mobile Team</td>
-                        <td>
-                          <span className="status orange"></span>
-                          pending
-                        </td>
-                      </tr>
+                        <tr>
+                          <td>UI/UX Design</td>
+                          <td>UI Team</td>
+                          <td>
+                            <span className="status purple"></span>
+                            review
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Web development</td>
+                          <td>Frontend</td>
+                          <td>
+                            <span className="status pink"></span>
+                            in progress
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Ushop app</td>
+                          <td>Mobile Team</td>
+                          <td>
+                            <span className="status orange"></span>
+                            pending
+                          </td>
+                        </tr>
 
-                      <tr>
-                        <td>UI/UX Design</td>
-                        <td>UI Team</td>
-                        <td>
-                          <span className="status purple"></span>
-                          review
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Web development</td>
-                        <td>Frontend</td>
-                        <td>
-                          <span className="status pink"></span>
-                          in progress
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Ushop app</td>
-                        <td>Mobile Team</td>
-                        <td>
-                          <span className="status orange"></span>
-                          pending
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                        <tr>
+                          <td>UI/UX Design</td>
+                          <td>UI Team</td>
+                          <td>
+                            <span className="status purple"></span>
+                            review
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Web development</td>
+                          <td>Frontend</td>
+                          <td>
+                            <span className="status pink"></span>
+                            in progress
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>Ushop app</td>
+                          <td>Mobile Team</td>
+                          <td>
+                            <span className="status orange"></span>
+                            pending
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                 </div>
               </div>
             </div>
@@ -283,11 +290,11 @@ const Dashboard = () => {
                     </div>
                     <div>
                       <span className="las la-user-circle"></span>
-                      <BiUserCircle/>
+                      <BiUserCircle />
                       <span className="las la-comment"></span>
-                      <FaRegComment/>
+                      <FaRegComment />
                       <span className="las la-phone"></span>
-                      <AiFillPhone/>
+                      <AiFillPhone />
                     </div>
                   </div>
 
@@ -300,12 +307,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                    <span className="las la-user-circle"></span>
-                      <BiUserCircle/>
+                      <span className="las la-user-circle"></span>
+                      <BiUserCircle />
                       <span className="las la-comment"></span>
-                      <FaRegComment/>
+                      <FaRegComment />
                       <span className="las la-phone"></span>
-                      <AiFillPhone/>
+                      <AiFillPhone />
                     </div>
                   </div>
 
@@ -318,12 +325,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                    <span className="las la-user-circle"></span>
-                      <BiUserCircle/>
+                      <span className="las la-user-circle"></span>
+                      <BiUserCircle />
                       <span className="las la-comment"></span>
-                      <FaRegComment/>
+                      <FaRegComment />
                       <span className="las la-phone"></span>
-                      <AiFillPhone/>
+                      <AiFillPhone />
                     </div>
                   </div>
 
@@ -336,12 +343,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                    <span className="las la-user-circle"></span>
-                      <BiUserCircle/>
+                      <span className="las la-user-circle"></span>
+                      <BiUserCircle />
                       <span className="las la-comment"></span>
-                      <FaRegComment/>
+                      <FaRegComment />
                       <span className="las la-phone"></span>
-                      <AiFillPhone/>
+                      <AiFillPhone />
                     </div>
                   </div>
 
@@ -354,12 +361,12 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                    <span className="las la-user-circle"></span>
-                      <BiUserCircle/>
+                      <span className="las la-user-circle"></span>
+                      <BiUserCircle />
                       <span className="las la-comment"></span>
-                      <FaRegComment/>
+                      <FaRegComment />
                       <span className="las la-phone"></span>
-                      <AiFillPhone/>
+                      <AiFillPhone />
                     </div>
                   </div>
                 </div>
