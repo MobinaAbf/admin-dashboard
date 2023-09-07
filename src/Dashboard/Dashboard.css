@@ -373,9 +373,76 @@ tr td:last-child {
   .search-wrapper {
     display: none;
   }
+  .sidebar {
+    left: -100% !important;
+  }
+
+  header h2 {
+    display: flex;
+    align-items: center;
+  }
+
+  header h2 lable {
+    display: inline-block;
+    text-align: center;
+    background: var(--main-color);
+    padding-left: 0rem;
+    margin-right: 1rem;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+  }
+
+  header h2 span {
+    text-align: center;
+    padding-right: 0rem;
+  }
+
+  header h2 {
+    font-size: 1.1rem;
+  }
+
+  .main-content {
+    width: 100%;
+    margin-left: 0rem;
+  }
+
+  header {
+    width: 100% !important;
+    left: 0 !important;
+  }
+
+  #nav-toggle:checked + .sidebar {
+    left: 0 !important;
+    z-index: 100;
+    width: 345px;
+  }
+
+  #nav-toggle:checked + .sidebar .sidebar-brand,
+  #nav-toggle:checked + .sidebar li {
+    padding-left: 2rem;
+    text-align: left;
+  }
+
+  #nav-toggle:checked + .sidebar li a {
+    padding-left: 1rem;
+  }
+
+  #nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
+  #nav-toggle:checked + .sidebar li a span:last-child {
+    display: inline;
+  }
+
+  #nav-toggle:checked ~ .main-content {
+    margin-left: 0rem !important;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 560px) {
   .cards {
     grid-template-columns: 100%;
   }
