@@ -55,7 +55,7 @@
 
 .sidebar-menu a.active {
   background: #fff;
-  padding-top: 0.5rem;
+  padding-top: 1rem;
   padding-bottom: 1rem;
   color: var(--main-color);
   border-radius: 40px 0px 0px 40px; /* topLeft topRight bottomRight bottomLeft */
@@ -70,9 +70,23 @@
   width: 70px;
 }
 
+#nav-toggle:checked + .sidebar .sidebar-brand,
+#nav-toggle:checked + .sidebar li {
+  padding-left: 1rem;
+  text-align: center;
+}
+
+#nav-toggle:checked + .sidebar li a {
+  padding-left: 1rem;
+}
+
 #nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
-#nav-toggle:checked + .sidebar li a h2 span:last-child {
+#nav-toggle:checked + .sidebar li a span:last-child {
   display: none;
+}
+
+#nav-toggle:checked ~ .main-content {
+  margin-left: 70px;
 }
 
 .main-content {
