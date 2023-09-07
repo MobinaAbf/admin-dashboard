@@ -114,7 +114,7 @@ header {
   transition: left 300ms;
 }
 
-#nav-toggle{
+#nav-toggle {
   display: none;
 }
 
@@ -243,7 +243,7 @@ table {
 
 thead tr {
   border-top: 1px solid #f0f0f0;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 2px solid #f0f0f0;
 }
 
 thead td {
@@ -319,6 +319,36 @@ tr td:last-child {
   display: inline-block;
   margin-left: 0.5rem;
   color: var(--main-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  .sidebar {
+    width: 70px;
+  }
+
+  .sidebar .sidebar-brand,
+  .sidebar li {
+    padding-left: 1rem;
+    text-align: center;
+  }
+
+  .sidebar li a {
+    padding-left: 1rem;
+  }
+
+  .sidebar .sidebar-brand h2 span:last-child,
+  .sidebar li a span:last-child {
+    display: none;
+  }
+
+  .main-content {
+    margin-left: 70px;
+  }
+
+  .main-content header {
+    width: calc(100% - 70px);
+    left: 70px;
+  }
 }
 
 .search-wrapper span {
