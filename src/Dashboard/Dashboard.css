@@ -66,6 +66,10 @@
   padding-right: 1rem;
 }
 
+#nav-toggle:checked + .sidebar {
+  width: 100px;
+}
+
 .main-content {
   margin-left: 345px;
 }
@@ -254,7 +258,7 @@ tr td:last-child {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem .7rem;
+  padding: 0.5rem 0.7rem;
 }
 
 .info {
