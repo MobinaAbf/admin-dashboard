@@ -289,12 +289,18 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div className="contact">
-                      <span className="las la-user-circle"></span>
-                      <BiUserCircle />
-                      <span className="las la-comment"></span>
-                      <FaRegComment />
-                      <span className="las la-phone"></span>
-                      <AiFillPhone />
+                      <span className="las la-user-circle">
+                        {" "}
+                        <BiUserCircle />
+                      </span>
+                      <span className="las la-comment">
+                        {" "}
+                        <FaRegComment />
+                      </span>
+                      <span className="las la-phone">
+                        {" "}
+                        <AiFillPhone />
+                      </span>
                     </div>
                   </div>
 
@@ -307,12 +313,18 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
-                      <BiUserCircle />
-                      <span className="las la-comment"></span>
-                      <FaRegComment />
-                      <span className="las la-phone"></span>
-                      <AiFillPhone />
+                      <span className="las la-user-circle">
+                        {" "}
+                        <BiUserCircle />
+                      </span>
+                      <span className="las la-comment">
+                        {" "}
+                        <FaRegComment />
+                      </span>
+                      <span className="las la-phone">
+                        {" "}
+                        <AiFillPhone />
+                      </span>
                     </div>
                   </div>
 
@@ -325,12 +337,18 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
-                      <BiUserCircle />
-                      <span className="las la-comment"></span>
-                      <FaRegComment />
-                      <span className="las la-phone"></span>
-                      <AiFillPhone />
+                      <span className="las la-user-circle">
+                        {" "}
+                        <BiUserCircle />
+                      </span>
+                      <span className="las la-comment">
+                        {" "}
+                        <FaRegComment />
+                      </span>
+                      <span className="las la-phone">
+                        {" "}
+                        <AiFillPhone />
+                      </span>
                     </div>
                   </div>
 
@@ -343,12 +361,18 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
-                      <BiUserCircle />
-                      <span className="las la-comment"></span>
-                      <FaRegComment />
-                      <span className="las la-phone"></span>
-                      <AiFillPhone />
+                      <span className="las la-user-circle">
+                        {" "}
+                        <BiUserCircle />
+                      </span>
+                      <span className="las la-comment">
+                        {" "}
+                        <FaRegComment />
+                      </span>
+                      <span className="las la-phone">
+                        {" "}
+                        <AiFillPhone />
+                      </span>
                     </div>
                   </div>
 
@@ -361,12 +385,18 @@ const Dashboard = () => {
                       </div>
                     </div>
                     <div>
-                      <span className="las la-user-circle"></span>
-                      <BiUserCircle />
-                      <span className="las la-comment"></span>
-                      <FaRegComment />
-                      <span className="las la-phone"></span>
-                      <AiFillPhone />
+                      <span className="las la-user-circle">
+                        {" "}
+                        <BiUserCircle />
+                      </span>
+                      <span className="las la-comment">
+                        {" "}
+                        <FaRegComment />
+                      </span>
+                      <span className="las la-phone">
+                        {" "}
+                        <AiFillPhone />
+                      </span>
                     </div>
                   </div>
                 </div>
