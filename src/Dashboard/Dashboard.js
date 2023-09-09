@@ -15,11 +15,14 @@ import { HiOutlineArrowSmRight } from "react-icons/hi";
 const Dashboard = () => {
   return (
     <div className="container">
-      <input type="checkbox" id="nav-toggle"/>
+      <input type="checkbox" id="nav-toggle" />
       <div className="sidebar">
         <div className="sidebar-brand">
           <h2>
-            <span className="lab la-accusoft"> <img src="myImage"/></span>
+            <span className="lab la-accusoft">
+              {" "}
+              <img src="myImage" alt=""/>
+            </span>
             <span>Data2Learn</span>
           </h2>
         </div>
