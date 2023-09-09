@@ -8,6 +8,7 @@ import NewLogin from "./Pages/NewLogin.jsx";
 import Users from "./Pages/Users.jsx";
 import ProductList from "./Pages/ProductList.jsx";
 import { BrowserRouter, Routes } from "react-router-dom";
+import "./App.css"
 
 export default function App() {  return (
     <BrowserRouter>
