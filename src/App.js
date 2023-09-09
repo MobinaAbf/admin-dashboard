@@ -1,6 +1,6 @@
 import React from "react";
 import { Route } from "react-router-dom";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./Components/Sidebar.jsx";
 import Dashboard from "./Pages/Dashboard.jsx";
 import About from "./Pages/About.jsx";
 import LogOut from "./Pages/LogOut.jsx";
@@ -9,8 +9,7 @@ import Users from "./Pages/Users.jsx";
 import ProductList from "./Pages/ProductList.jsx";
 import { BrowserRouter, Routes } from "react-router-dom";
 
-function App() {
-  return (
+export default function App() {  return (
     <BrowserRouter>
     <Sidebar>
       <Routes>
@@ -26,5 +25,3 @@ function App() {
   </BrowserRouter>
   );
 }
-
-export default App;
