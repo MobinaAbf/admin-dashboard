@@ -1,4 +1,4 @@
-// import "./Dashboard.css";
+import "./Dashboard.css";
 import myImage from "./images.png";
 // import myImage1 from "./maze-logo_1_-removebg-preview.png"
 import { MdDashboard, MdInventory, MdAccountCircle } from "react-icons/md";
